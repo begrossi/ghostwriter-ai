@@ -26,9 +26,10 @@ To run the code, you'll need to set up several environment variables. These vari
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Set up the environment variables. You can do this by exporting them in your shell or by using a `.env` file.
-4. Once the environment variables are set, run the main script (e.g., `python main.py`).
-5. The script will use the provided environment variables to generate the book content based on your specifications.
+3. Create a virtual environment and install the dependencies: `pip install -r requirements.txt`
+4. Set up the environment variables. You can do this by exporting them in your shell or by using a `.env` file.
+5. Once the environment variables are set, run the main script (e.g., `python main.py`).
+6. The script will use the provided environment variables to generate the book content based on your specifications.
 
 Note: Ensure you have all the necessary dependencies installed and that you handle the OpenAI API rate limits and costs associated with generating large amounts of text.
 
